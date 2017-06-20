@@ -1,0 +1,24 @@
+header {
+  background-image: url('img/hero.jpg');
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+i {
+  font-size: 30px;
+  vertical-align: bottom;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.copycat {
+  font-weight: lighter;
+  font-size: 26px;
+}
+
+.lft-mar{
+  margin-left: 10px;
+}
