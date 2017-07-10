@@ -14,16 +14,6 @@ if (typeof(jQuery) === 'undefined') {
     jQuery = $;
   }
 }
-
-
-
-$(".button-collapse").sideNav({
-    menuWidth: 300,
-    edge: 'right',
-    closeOnClick: true,
-    draggable: true
-  }
-);
 /*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *

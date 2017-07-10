@@ -1,0 +1,20 @@
+.card {
+  display: inline-block;
+}
+
+.boldMe {
+  font-weight: bold;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.copycat {
+  font-weight: lighter;
+  font-size: 26px;
+}
+
+.lft-mar{
+  margin-left: 10px;
+}

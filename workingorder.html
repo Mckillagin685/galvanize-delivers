@@ -42,7 +42,7 @@
                   <p>$8.99</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="pink-text flow-text food">ADD TO ORDER</a>
+                  <a href="#" class="pink-text flow-text">ADD TO ORDER</a>
                 </div>
               </div>
               <div class="card">
@@ -54,7 +54,7 @@
                   <p>$11.99</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="pink-text flow-text food">ADD TO ORDER</a>
+                  <a href="#" class="pink-text flow-text">ADD TO ORDER</a>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@
                   <p>$14.99</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="pink-text flow-text food">ADD TO ORDER</a>
+                  <a href="#" class="pink-text flow-text">ADD TO ORDER</a>
                 </div>
               </div>
               <div class="card">
@@ -80,7 +80,7 @@
                   <p>$7.99</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="pink-text flow-text food">ADD TO ORDER</a>
+                  <a href="#" class="pink-text flow-text">ADD TO ORDER</a>
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@
                   <p>$8.99</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="pink-text flow-text food">ADD TO ORDER</a>
+                  <a href="#" class="pink-text flow-text">ADD TO ORDER</a>
                 </div>
               </div>
               <div class="card">
@@ -107,7 +107,7 @@
                   <p>$11.99</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="pink-text flow-text food">ADD TO ORDER</a>
+                  <a href="#" class="pink-text flow-text">ADD TO ORDER</a>
                 </div>
               </div>
               <div class="card">
@@ -119,7 +119,7 @@
                   <p>$14.99</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="pink-text flow-text food">ADD TO ORDER</a>
+                  <a href="#" class="pink-text flow-text">ADD TO ORDER</a>
                 </div>
               </div>
               <div class="card">
@@ -131,14 +131,14 @@
                   <p>$7.99</p>
                 </div>
                 <div class="card-action">
-                  <a href="#" class="pink-text flow-text food">ADD TO ORDER</a>
+                  <a href="#" class="pink-text flow-text">ADD TO ORDER</a>
                 </div>
               </div>
             </div>
           </div>
             <div class="col s12 m6 l6">
               <h3 class="black-text">Order</h3>
-              <table id="items" class="striped">
+              <table class="striped">
                 <thead>
                   <tr>
                     <th><h6 class="boldMe">Item</h6></th>
@@ -146,7 +146,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <!-- <tr>
+                  <tr>
                     <td><h6>Royale with Cheese</h6></td>
                     <td><h6 class="right-align">$8.99</h6></td>
                   </tr>
@@ -161,10 +161,10 @@
                   <tr>
                     <td><h6>Ice Cream Biscut</h6></td>
                     <td><h6 class="right-align">$7.99</h6></td>
-                  </tr> -->
+                  </tr>
                 </tbody>
               </table>
-                <table id="totals">
+                <table>
                   <tbody>
                     <tr>
                         <td><h6 class="right-align">Subtotal</h6></td>
@@ -181,26 +181,32 @@
                   </tbody>
                 </table>
                 <form>
+                <form class="">
                   <div class="section">
                     <div class="input-field">
-                    <input placeholder="Name" name="name" type="text" class="validate" required>
+                    <input placeholder="Name" id="name" type="text" class="validate">
                     <label for="name">Name</label>
                   </div>
                 </div>
+              </form>
+              <form class="">
                 <div class="section">
                   <div class="input-field">
-                    <input placeholder="Phone Number" name="phone_number" type="text" class="validate" required>
+                    <input placeholder="Phone Number" id="phone_number" type="text" class="validate">
                     <label for="phone_number">Phone Number</label>
                   </div>
                 </div>
+              </form>
+              <form class="">
                 <div class="section">
                   <div class="input-field">
-                    <input placeholder="Address" name="address" type="text" class="validate" required>
+                    <input placeholder="Address" id="address" type="text" class="validate">
                     <label for="address">Address</label>
                   </div>
                 </div>
-                <div class="center-align"><input type="submit" name="button" class="center-align pink btn-large waves-effect waves-light" value="PLACE AN ORDER"></div>
-                </form>
+              </form>
+              <div class="center-align"><input type="submit" class="center-align pink btn-large waves-effect waves-light" value="PLACE AN ORDER"></div>
+            </form>
             </div>
           </div>
         </div>
